@@ -13,7 +13,7 @@ export const personalInfo = {
 };
 
 import hatilLogo from "@/assets/logos/hatil-logo.svg";
-import ryansLogo from "@/assets/logos/ryans-logo.png";
+import ryansLogo from "@/assets/logos/ryans-logo.svg";
 
 export const featuredProjects = [
   {
