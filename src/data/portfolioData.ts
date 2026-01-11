@@ -121,7 +121,7 @@ export const featuredProjects = [
       "PPC delivered quality traffic with strong lead generation",
       "Reduced cost per lead through refined audience targeting",
     ],
-    type: "SEO",
+    type: ["SEO", "PPC"],
   },
   {
     id: 7,
