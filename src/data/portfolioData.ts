@@ -15,6 +15,7 @@ export const personalInfo = {
 import hatilLogo from "@/assets/logos/hatil-logo.svg";
 import ryansLogo from "@/assets/logos/ryans-logo.svg";
 import shopidevsLogo from "@/assets/logos/shopidevs-logo.svg";
+import anzaraLogo from "@/assets/logos/anzara-logo.png";
 
 export const featuredProjects = [
   {
@@ -71,6 +72,7 @@ export const featuredProjects = [
   {
     id: 4,
     client: "Anzara",
+    logo: anzaraLogo,
     intro: "Premium fashion & lifestyle brand with e-commerce focus.",
     strategy: [
       "Local SEO & Google Business Profile optimization",
