@@ -24,7 +24,7 @@ const PortfolioSection = () => {
                   {/* Logo */}
                   <div className="w-12 h-12 rounded-lg bg-secondary flex items-center justify-center overflow-hidden">
                     {project.logo ? (
-                      <img src={project.logo} alt={`${project.client} logo`} className="w-10 h-10 object-contain" />
+                      <img src={https://www.ryans.com/assets/images/ryans-logo.svg} alt={`${project.client} logo`} className="w-10 h-10 object-contain" />
                     ) : (
                       <span className="text-lg font-bold text-primary">
                         {project.client.charAt(0)}
