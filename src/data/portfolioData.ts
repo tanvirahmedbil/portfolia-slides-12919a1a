@@ -12,10 +12,13 @@ export const personalInfo = {
   facebook: "https://facebook.com/tanvirahmeddm/",
 };
 
+import hatilLogo from "@/assets/logos/hatil-logo.svg";
+
 export const featuredProjects = [
   {
     id: 1,
     client: "Hatil Bangladesh",
+    logo: hatilLogo,
     intro: "Leading furniture manufacturer in Bangladesh with nationwide presence.",
     strategy: [
       "Comprehensive e-commerce SEO audit & implementation",
