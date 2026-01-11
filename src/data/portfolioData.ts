@@ -138,7 +138,7 @@ export const featuredProjects = [
       "Increased qualified leads from paid campaigns",
       "Lower CPA through continuous PPC optimization",
     ],
-    type: "PPC",
+    type: ["SEO", "PPC"],
   },
 ];
 
