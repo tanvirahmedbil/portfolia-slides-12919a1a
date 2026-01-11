@@ -21,11 +21,15 @@ const PortfolioSection = () => {
               {/* Header */}
               <div className="flex items-start justify-between gap-4 mb-6">
                 <div className="flex items-center gap-4">
-                  {/* Logo Placeholder */}
-                  <div className="w-12 h-12 rounded-lg bg-secondary flex items-center justify-center">
-                    <span className="text-lg font-bold text-primary">
-                      {project.client.charAt(0)}
-                    </span>
+                  {/* Logo */}
+                  <div className="w-12 h-12 rounded-lg bg-secondary flex items-center justify-center overflow-hidden">
+                    {project.logo ? (
+                      <img src={project.logo} alt={`${project.client} logo`} className="w-10 h-10 object-contain" />
+                    ) : (
+                      <span className="text-lg font-bold text-primary">
+                        {project.client.charAt(0)}
+                      </span>
+                    )}
                   </div>
                   <div>
                     <h3 className="text-lg font-display font-semibold text-foreground">
