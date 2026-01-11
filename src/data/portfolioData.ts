@@ -52,7 +52,7 @@ export const featuredProjects = [
   },
   {
     id: 3,
-    client: "Shopify App Install",
+    client: "Shopidevs: Shopify App",
     intro: "Google Ads campaign for Shopify app installation conversions.",
     strategy: [
       "Google Ads campaign setup & optimization",
