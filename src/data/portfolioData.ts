@@ -16,6 +16,9 @@ import hatilLogo from "@/assets/logos/hatil-logo.svg";
 import ryansLogo from "@/assets/logos/ryans-logo.svg";
 import shopidevsLogo from "@/assets/logos/shopidevs-logo.svg";
 import anzaraLogo from "@/assets/logos/anzara-logo.png";
+import actsassetLogo from "@/assets/logos/actsasset-logo.svg";
+import watermanLogo from "@/assets/logos/watermanbd-logo.webp";
+import acwoodLogo from "@/assets/logos/acwood-logo.png";
 
 export const featuredProjects = [
   {
@@ -85,6 +88,57 @@ export const featuredProjects = [
       "Enhanced brand presence in AI-driven search results",
     ],
     type: "SEO",
+  },
+  {
+    id: 5,
+    client: "Acts Asset Ltd",
+    logo: actsassetLogo,
+    intro: "Performance marketing and digital asset management partner.",
+    strategy: [
+      "Built multi-channel PPC campaigns on Google Search & Display",
+      "Optimized keyword targeting & structured ad groups",
+      "Competitor analysis & conversion tracking optimization",
+    ],
+    outcome: [
+      "Increased paid search visibility with higher CTR than benchmarks",
+      "Lowered average CPC through bid optimization",
+      "Boosted conversions & improved lead quality from PPC traffic",
+    ],
+    type: "PPC",
+  },
+  {
+    id: 6,
+    client: "Waterman BD",
+    logo: watermanLogo,
+    intro: "Industrial water solutions provider with service focus across Bangladesh.",
+    strategy: [
+      "Combined SEO & PPC growth strategy development",
+      "Technical SEO audit & on-page content optimization",
+      "Segmented PPC campaigns by service category",
+    ],
+    outcome: [
+      "Organic visibility improved for high-value service queries",
+      "PPC delivered quality traffic with strong lead generation",
+      "Reduced cost per lead through refined audience targeting",
+    ],
+    type: "SEO",
+  },
+  {
+    id: 7,
+    client: "AC Wood Contracting",
+    logo: acwoodLogo,
+    intro: "Full-service general contractor specializing in custom builds and renovations.",
+    strategy: [
+      "Local SEO with service & location page development",
+      "Geo-targeted Google Ads for key service areas",
+      "Strategic bid schedules & ad extensions implementation",
+    ],
+    outcome: [
+      "Local organic rankings improved for targeted service terms",
+      "Increased qualified leads from paid campaigns",
+      "Lower CPA through continuous PPC optimization",
+    ],
+    type: "PPC",
   },
 ];
 
