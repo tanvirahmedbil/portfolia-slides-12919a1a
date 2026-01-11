@@ -14,6 +14,7 @@ export const personalInfo = {
 
 import hatilLogo from "@/assets/logos/hatil-logo.svg";
 import ryansLogo from "@/assets/logos/ryans-logo.svg";
+import shopidevsLogo from "@/assets/logos/shopidevs-logo.svg";
 
 export const featuredProjects = [
   {
@@ -53,6 +54,7 @@ export const featuredProjects = [
   {
     id: 3,
     client: "Shopidevs: Shopify App",
+    logo: shopidevsLogo,
     intro: "Google Ads campaign for Shopify app installation conversions.",
     strategy: [
       "Google Ads campaign setup & optimization",
