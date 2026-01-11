@@ -13,6 +13,7 @@ export const personalInfo = {
 };
 
 import hatilLogo from "@/assets/logos/hatil-logo.svg";
+import ryansLogo from "@/assets/logos/ryans-logo.png";
 
 export const featuredProjects = [
   {
@@ -35,6 +36,7 @@ export const featuredProjects = [
   {
     id: 2,
     client: "Ryans Computers",
+    logo: ryansLogo,
     intro: "One of Bangladesh's largest computer & IT product retailers.",
     strategy: [
       "E-commerce SEO strategy for 10,000+ product pages",
