@@ -40,15 +40,20 @@ const PortfolioSection = () => {
                     </p>
                   </div>
                 </div>
-                <span
-                  className={`px-3 py-1 text-xs font-medium rounded-full ${
-                    project.type === "PPC"
-                      ? "bg-primary/20 text-primary"
-                      : "bg-secondary text-foreground/70"
-                  }`}
-                >
-                  {project.type}
-                </span>
+                <div className="flex gap-2">
+                  {(Array.isArray(project.type) ? project.type : [project.type]).map((t) => (
+                    <span
+                      key={t}
+                      className={`px-3 py-1 text-xs font-medium rounded-full ${
+                        t === "PPC"
+                          ? "bg-primary/20 text-primary"
+                          : "bg-secondary text-foreground/70"
+                      }`}
+                    >
+                      {t}
+                    </span>
+                  ))}
+                </div>
               </div>
 
               {/* Strategy & Outcome */}
