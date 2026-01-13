@@ -21,6 +21,7 @@ import watermanLogo from "@/assets/logos/watermanbd-logo.webp";
 import acwoodLogo from "@/assets/logos/acwood-logo.png";
 import medeasyLogo from "@/assets/logos/medeasy-logo.svg";
 import ftCleaningLogo from "@/assets/logos/ft-cleaning-logo.png";
+import ishoLogo from "@/assets/logos/isho-logo.png";
 
 export const featuredProjects = [
   {
@@ -162,7 +163,7 @@ export const featuredProjects = [
   {
     id: 9,
     client: "ISHO Furniture",
-    logo: "https://www.isho.com/storage/media/c11Tpwe0Slsq2B6ixFVjwfJ1yvVshRGjTGAperh0.png",
+    logo: ishoLogo,
     intro: "Premium furniture brand with strong e-commerce presence.",
     strategy: [
       "Long-term e-commerce SEO over a one-year period",
