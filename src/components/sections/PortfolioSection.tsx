@@ -22,11 +22,11 @@ const PortfolioSection = () => {
               <div className="flex items-start justify-between gap-4 mb-6">
                 <div className="flex items-center gap-4">
                   {/* Logo */}
-                  <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-slate-50 to-slate-100 border border-slate-200 flex items-center justify-center overflow-hidden p-2 shadow-sm">
+                  <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-white via-slate-50 to-slate-100 border-2 border-slate-200/80 flex items-center justify-center overflow-hidden p-2.5 shadow-lg shadow-primary/10 ring-1 ring-inset ring-white/60 transition-transform duration-200 hover:scale-105">
                     {project.logo ? (
-                      <img src={project.logo} alt={`${project.client} logo`} className="w-full h-full object-contain drop-shadow-sm" />
+                      <img src={project.logo} alt={`${project.client} logo`} className="w-full h-full object-contain drop-shadow-md" />
                     ) : (
-                      <span className="text-lg font-bold text-primary">
+                      <span className="text-2xl font-bold bg-gradient-to-br from-primary to-primary/70 bg-clip-text text-transparent">
                         {project.client.charAt(0)}
                       </span>
                     )}
