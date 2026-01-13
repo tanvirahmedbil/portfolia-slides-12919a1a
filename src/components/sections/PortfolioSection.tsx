@@ -22,9 +22,9 @@ const PortfolioSection = () => {
               <div className="flex items-start justify-between gap-4 mb-6">
                 <div className="flex items-center gap-4">
                   {/* Logo */}
-                  <div className="w-12 h-12 rounded-lg bg-secondary flex items-center justify-center overflow-hidden">
+                  <div className="w-12 h-12 rounded-lg bg-white border border-border/50 flex items-center justify-center overflow-hidden p-1.5 shadow-sm">
                     {project.logo ? (
-                      <img src={project.logo} alt={`${project.client} logo`} className="w-10 h-10 object-contain" />
+                      <img src={project.logo} alt={`${project.client} logo`} className="w-full h-full object-contain" />
                     ) : (
                       <span className="text-lg font-bold text-primary">
                         {project.client.charAt(0)}
