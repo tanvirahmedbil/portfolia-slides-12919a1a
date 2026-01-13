@@ -19,6 +19,8 @@ import anzaraLogo from "@/assets/logos/anzara-logo.png";
 import actsassetLogo from "@/assets/logos/actsasset-logo.svg";
 import watermanLogo from "@/assets/logos/watermanbd-logo.webp";
 import acwoodLogo from "@/assets/logos/acwood-logo.png";
+import medeasyLogo from "@/assets/logos/medeasy-logo.svg";
+import ftCleaningLogo from "@/assets/logos/ft-cleaning-logo.png";
 
 export const featuredProjects = [
   {
@@ -140,11 +142,61 @@ export const featuredProjects = [
     ],
     type: ["SEO", "PPC"],
   },
+  {
+    id: 8,
+    client: "Medeasy Health",
+    logo: medeasyLogo,
+    intro: "Digital healthcare platform providing accessible medical services.",
+    strategy: [
+      "Comprehensive SEO growth strategy with technical optimization",
+      "High-intent keyword targeting & content optimization",
+      "Improved site structure & internal linking alignment",
+    ],
+    outcome: [
+      "Increased organic traffic from ~2,000 to ~6,000 daily visitors in 9 months",
+      "Organic-driven sales grew nearly 4×",
+      "Established search as a major revenue channel",
+    ],
+    type: "SEO",
+  },
+  {
+    id: 9,
+    client: "ISHO Furniture",
+    logo: null,
+    intro: "Premium furniture brand with strong e-commerce presence.",
+    strategy: [
+      "Long-term e-commerce SEO over a one-year period",
+      "Category & product page optimization with keyword expansion",
+      "Internal linking enhancements & commercial content alignment",
+    ],
+    outcome: [
+      "Scaled organic daily traffic from ~4,000 to ~9,000 visitors",
+      "Sustained growth in high-value commercial keywords",
+      "Significantly strengthened organic visibility & revenue",
+    ],
+    type: "SEO",
+  },
+  {
+    id: 10,
+    client: "F&T Cleaning Services",
+    logo: ftCleaningLogo,
+    intro: "Local residential and commercial cleaning service in Pittsfield, MA.",
+    strategy: [
+      "Full website redesign with modern UX & SEO best practices",
+      "Local SEO with service-specific pages & location targeting",
+      "On-page optimization & keyword mapping for Pittsfield area",
+    ],
+    outcome: [
+      "Grew organic traffic from zero to ~600 monthly visitors",
+      "First-page rankings for all core local service keywords",
+      "Consistent local visibility & qualified inbound leads",
+    ],
+    type: "SEO",
+  },
 ];
 
 export const moreProjects = [
   "Multimedia Kingdom",
-  "Isho Furniture",
   "Tavaas Clothing",
   "Moriom Rent a Car",
   "Ship International Hospital",
