@@ -147,7 +147,7 @@ export const featuredProjects = [
     id: 8,
     client: "AC Wood Contracting",
     logo: acwoodLogo,
-    intro: "Full-service general contractor specializing in custom builds and renovations.",
+    intro: "Berkshire County's top general contractor specializing in custom builds and renovations.",
     strategy: [
       "Local SEO with service & location page development",
       "Geo-targeted Google Ads for Berkshire County's key service areas",
