@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/sections/HeroSection";
 import PortfolioSection from "@/components/sections/PortfolioSection";
+import GrowthSection from "@/components/sections/GrowthSection";
 import ExperienceSection from "@/components/sections/ExperienceSection";
 import EducationSection from "@/components/sections/EducationSection";
 import SkillsSection from "@/components/sections/SkillsSection";
@@ -86,6 +87,7 @@ const Index = () => {
       
       <HeroSection onNavigate={navigateToSection} />
       <PortfolioSection />
+      <GrowthSection />
       <ExperienceSection />
       <EducationSection />
       <SkillsSection />
