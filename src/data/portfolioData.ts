@@ -150,7 +150,7 @@ export const featuredProjects = [
     intro: "Full-service general contractor specializing in custom builds and renovations.",
     strategy: [
       "Local SEO with service & location page development",
-      "Geo-targeted Google Ads for key service areas",
+      "Geo-targeted Google Ads for Berkshire County's key service areas",
       "Strategic bid schedules & ad extensions implementation",
     ],
     outcome: [
