@@ -162,7 +162,7 @@ export const featuredProjects = [
   {
     id: 9,
     client: "ISHO Furniture",
-    logo: null,
+    logo: "https://www.isho.com/storage/media/c11Tpwe0Slsq2B6ixFVjwfJ1yvVshRGjTGAperh0.png",
     intro: "Premium furniture brand with strong e-commerce presence.",
     strategy: [
       "Long-term e-commerce SEO over a one-year period",
