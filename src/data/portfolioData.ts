@@ -145,11 +145,10 @@ export const featuredProjects = [
 export const moreProjects = [
   "Multimedia Kingdom",
   "Isho Furniture",
-  "Sheba.xyz",
-  "Tekarsh UAE",
-  "SEO Starter Pack (Internal Product)",
-  "Chaldo",
-  "Bangladesh Accord",
+  "Tavaas Clothing",
+  "Moriom Rent a Car",
+  "Ship International Hospital",
+  "Apple Gadgets",
 ];
 
 export const experiences = [
