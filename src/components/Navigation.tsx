@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Download, Mail, ChevronUp, ChevronDown } from "lucide-react";
 import { sections } from "@/data/portfolioData";
+import navLogo from "@/assets/nav-logo.jpeg";
 
 interface NavigationProps {
   currentSection: number;
@@ -42,9 +43,9 @@ const Navigation = ({ currentSection, onNavigate }: NavigationProps) => {
           {/* Logo/Name */}
           <button
             onClick={() => onNavigate(0)}
-            className="text-lg font-display font-semibold text-foreground hover:text-primary transition-colors"
+            className="hover:opacity-80 transition-opacity"
           >
-            TA<span className="text-primary">.</span>
+            <img src={navLogo} alt="Tanvir Ahmed" className="w-10 h-10 rounded-full object-cover" />
           </button>
 
           {/* Desktop Navigation */}
