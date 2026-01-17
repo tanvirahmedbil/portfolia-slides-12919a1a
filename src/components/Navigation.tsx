@@ -34,7 +34,7 @@ const Navigation = ({
         <div className="max-w-7xl mx-auto px-6 md:px-12 py-4 flex items-center justify-between">
           {/* Logo/Name */}
           <button onClick={() => onNavigate(0)} className="transition-opacity opacity-100 font-extralight">
-            <img src={navLogo} alt="Tanvir Ahmed" className="w-10 h-10 rounded-full object-cover" />
+            <img src={navLogo} alt="Tanvir Ahmed" className="w-12 h-12 rounded-full object-cover" />
           </button>
 
           {/* Desktop Navigation */}
