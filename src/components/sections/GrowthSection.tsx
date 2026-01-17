@@ -91,31 +91,48 @@ const growthSnapshots: GrowthSnapshot[] = [{
 }];
 const GrowthSection = () => {
   const [selectedImage, setSelectedImage] = useState<GrowthSnapshot | null>(null);
-  return <section id="growth" className="section-slide">
-      <div className="section-content">
-        <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground mb-4">
+
+  return (
+    <section id="growth" className="slide-section">
+      <div className="max-w-6xl mx-auto w-full">
+        <div className="text-center mb-8 sm:mb-12 md:mb-16">
+          <span className="section-label">Growth</span>
+          <h2 className="section-title mb-3 sm:mb-4">
             Growth Glimpse
           </h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+          <p className="text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto px-2">
             Selected performance snapshots from real client accounts.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          {growthSnapshots.map(snapshot => <Dialog key={snapshot.id}>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-6">
+          {growthSnapshots.map((snapshot) => (
+            <Dialog key={snapshot.id}>
               <DialogTrigger asChild>
-                <article className="group relative bg-card rounded-xl border border-border overflow-hidden cursor-pointer transition-all duration-300 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 motion-reduce:transition-none" onClick={() => setSelectedImage(snapshot)}>
+                <article
+                  className="group relative bg-card rounded-xl border border-border overflow-hidden cursor-pointer transition-all duration-300 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 motion-reduce:transition-none"
+                  onClick={() => setSelectedImage(snapshot)}
+                >
                   <div className="aspect-video overflow-hidden bg-muted">
-                    <img src={snapshot.image} alt={snapshot.alt} className="w-full h-full object-cover object-top transition-transform duration-300 group-hover:scale-105 motion-reduce:group-hover:scale-100" loading="lazy" />
+                    <img
+                      src={snapshot.image}
+                      alt={snapshot.alt}
+                      className="w-full h-full object-cover object-top transition-transform duration-300 group-hover:scale-105 motion-reduce:group-hover:scale-100"
+                      loading="lazy"
+                    />
                   </div>
                   
-                  <div className="p-4">
-                    
-                    <div className="flex flex-wrap gap-2">
-                      {snapshot.tags.map(tag => <Badge key={tag} variant="secondary" className="text-xs bg-muted text-muted-foreground">
+                  <div className="p-3 sm:p-4">
+                    <div className="flex flex-wrap gap-1.5 sm:gap-2">
+                      {snapshot.tags.map((tag) => (
+                        <Badge
+                          key={tag}
+                          variant="secondary"
+                          className="text-xs bg-muted text-muted-foreground"
+                        >
                           {tag}
-                        </Badge>)}
+                        </Badge>
+                      ))}
                     </div>
                   </div>
                 </article>
@@ -123,22 +140,35 @@ const GrowthSection = () => {
               
               <DialogContent className="max-w-5xl w-[95vw] p-0 bg-background border-border">
                 <div className="relative">
-                  <img src={snapshot.image} alt={snapshot.alt} className="w-full h-auto rounded-t-lg" />
+                  <img
+                    src={snapshot.image}
+                    alt={snapshot.alt}
+                    className="w-full h-auto rounded-t-lg"
+                  />
                   <div className="p-4 md:p-6">
-                    <p className="text-base md:text-lg font-medium text-foreground mb-3">
+                    <p className="text-sm sm:text-base md:text-lg font-medium text-foreground mb-2 sm:mb-3">
                       {snapshot.caption}
                     </p>
-                    <div className="flex flex-wrap gap-2">
-                      {snapshot.tags.map(tag => <Badge key={tag} variant="secondary" className="text-xs bg-muted text-muted-foreground">
+                    <div className="flex flex-wrap gap-1.5 sm:gap-2">
+                      {snapshot.tags.map((tag) => (
+                        <Badge
+                          key={tag}
+                          variant="secondary"
+                          className="text-xs bg-muted text-muted-foreground"
+                        >
                           {tag}
-                        </Badge>)}
+                        </Badge>
+                      ))}
                     </div>
                   </div>
                 </div>
               </DialogContent>
-            </Dialog>)}
+            </Dialog>
+          ))}
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default GrowthSection;
