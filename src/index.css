@@ -146,34 +146,42 @@
 
 @layer components {
   .slide-section {
-    @apply min-h-screen w-full flex flex-col justify-center px-6 md:px-12 lg:px-24 py-16 relative overflow-hidden;
+    @apply min-h-screen w-full flex flex-col justify-center px-4 sm:px-6 md:px-12 lg:px-24 py-20 sm:py-16 relative overflow-hidden;
+  }
+
+  .section-slide {
+    @apply min-h-screen w-full flex flex-col justify-center px-4 sm:px-6 md:px-12 lg:px-24 py-20 sm:py-16 relative overflow-hidden;
+  }
+
+  .section-content {
+    @apply max-w-7xl mx-auto w-full;
   }
 
   .section-label {
-    @apply text-xs uppercase tracking-[0.3em] text-primary font-medium mb-4;
+    @apply text-xs uppercase tracking-[0.2em] sm:tracking-[0.3em] text-primary font-medium mb-3 sm:mb-4;
   }
 
   .section-title {
-    @apply text-4xl md:text-5xl lg:text-6xl font-display font-semibold text-foreground leading-tight;
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-semibold text-foreground leading-tight;
   }
 
   .project-card {
-    @apply bg-card border border-border rounded-xl p-6 md:p-8 transition-all duration-300;
+    @apply bg-card border border-border rounded-xl p-4 sm:p-6 md:p-8 transition-all duration-300;
     @apply hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5;
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-medium rounded-lg;
+    @apply inline-flex items-center justify-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 bg-primary text-primary-foreground font-medium rounded-lg text-sm sm:text-base;
     @apply transition-all duration-300 hover:bg-primary/90 hover:scale-105;
   }
 
   .btn-outline {
-    @apply inline-flex items-center justify-center gap-2 px-6 py-3 border border-primary/50 text-primary font-medium rounded-lg;
+    @apply inline-flex items-center justify-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 border border-primary/50 text-primary font-medium rounded-lg text-sm sm:text-base;
     @apply transition-all duration-300 hover:bg-primary/10 hover:border-primary;
   }
 
   .btn-ghost {
-    @apply inline-flex items-center justify-center gap-2 px-4 py-2 text-foreground/70 font-medium rounded-lg;
+    @apply inline-flex items-center justify-center gap-2 px-3 sm:px-4 py-2 text-foreground/70 font-medium rounded-lg text-sm;
     @apply transition-all duration-300 hover:text-foreground hover:bg-secondary;
   }
 
@@ -186,7 +194,7 @@
   }
 
   .timeline-item {
-    @apply relative pl-8 pb-10 border-l-2 border-border last:pb-0;
+    @apply relative pl-6 sm:pl-8 pb-8 sm:pb-10 border-l-2 border-border last:pb-0;
   }
 
   .timeline-dot {
@@ -194,12 +202,12 @@
   }
 
   .skill-tag {
-    @apply px-4 py-2 bg-secondary text-foreground/80 text-sm font-medium rounded-full;
+    @apply px-3 sm:px-4 py-1.5 sm:py-2 bg-secondary text-foreground/80 text-xs sm:text-sm font-medium rounded-full;
     @apply transition-all duration-300 hover:bg-primary/20 hover:text-primary;
   }
 
   .progress-indicator {
-    @apply fixed right-8 top-1/2 -translate-y-1/2 z-50 hidden lg:flex flex-col gap-3;
+    @apply fixed right-4 sm:right-8 top-1/2 -translate-y-1/2 z-50 hidden lg:flex flex-col gap-3;
   }
 
   .progress-dot {
