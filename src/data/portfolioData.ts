@@ -28,6 +28,7 @@ export const featuredProjects = [
     id: 1,
     client: "Hatil Bangladesh",
     logo: hatilLogo,
+    logoBg: "#1a365d", // dark blue for white logo
     intro: "Leading furniture manufacturer in Bangladesh with nationwide presence.",
     strategy: [
       "Comprehensive e-commerce SEO audit & implementation",
@@ -45,6 +46,7 @@ export const featuredProjects = [
     id: 2,
     client: "Ryans Computers",
     logo: ryansLogo,
+    logoBg: "#0d9488", // teal for contrast
     intro: "One of Bangladesh's largest computer & IT product retailers.",
     strategy: [
       "E-commerce SEO strategy for 10,000+ product pages",
@@ -96,6 +98,7 @@ export const featuredProjects = [
     id: 5,
     client: "Shopidevs: Shopify App",
     logo: shopidevsLogo,
+    logoBg: "#7c3aed", // purple for white logo
     intro: "Google Ads campaign for Shopify app installation conversions.",
     strategy: [
       "Google Ads campaign setup & optimization",
@@ -113,6 +116,7 @@ export const featuredProjects = [
     id: 6,
     client: "Acts Asset Ltd",
     logo: actsassetLogo,
+    logoBg: "#dc2626", // red for white logo
     intro: "Performance marketing and digital asset management partner.",
     strategy: [
       "Built multi-channel PPC campaigns on Google Search & Display",
@@ -164,6 +168,7 @@ export const featuredProjects = [
     id: 9,
     client: "Medeasy Health",
     logo: medeasyLogo,
+    logoBg: "#059669", // green for healthcare
     intro: "Digital healthcare platform providing accessible medical services.",
     strategy: [
       "Comprehensive SEO growth strategy with technical optimization",
