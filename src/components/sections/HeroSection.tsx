@@ -1,4 +1,4 @@
-import { ArrowDown, Briefcase } from "lucide-react";
+import { ArrowDown, Briefcase, Download } from "lucide-react";
 import { personalInfo } from "@/data/portfolioData";
 import profilePhoto from "@/assets/profile-photo.png";
 interface HeroSectionProps {
@@ -45,10 +45,10 @@ const HeroSection = ({
             </p>
 
             <div className="animate-fade-in-up animation-delay-400 flex flex-wrap gap-4">
-              <button onClick={() => onNavigate(1)} className="btn-primary">
-                View Portfolio
-                <ArrowDown className="w-4 h-4" />
-              </button>
+              <a href="/Tanvir_Ahmed_CV_Resume.pdf" download className="btn-primary">
+                Download My Resume
+                <Download className="w-4 h-4" />
+              </a>
               <a href="mailto:tanvirahmed.mt@gmail.com" className="btn-outline">
                 Get In Touch
               </a>
