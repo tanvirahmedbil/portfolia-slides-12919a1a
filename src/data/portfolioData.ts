@@ -289,7 +289,7 @@ export const skills = {
 export const sections = [
   { id: "home", label: "Home" },
   { id: "portfolio", label: "Portfolio" },
-  { id: "growth", label: "Growth" },
+  { id: "growth", label: "Project Snaps" },
   { id: "experience", label: "Experience" },
   { id: "education", label: "Education" },
   { id: "skills", label: "Skills" },
