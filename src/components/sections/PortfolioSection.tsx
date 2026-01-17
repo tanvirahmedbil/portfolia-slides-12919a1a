@@ -18,7 +18,7 @@ const PortfolioSection = () => {
                   {/* Logo */}
                   <div 
                     className="w-14 h-14 flex items-center justify-center overflow-hidden p-2 rounded-lg border border-border/50 shadow-md transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary/10"
-                    style={{ backgroundColor: project.logoBg || 'rgba(255,255,255,0.95)' }}
+                    style={{ backgroundColor: project.logoBg || '#6574ae' }}
                   >
                     {project.logo ? <img src={project.logo} alt={`${project.client} logo`} className="w-full h-full object-contain" /> : <span className="text-xl font-bold bg-gradient-to-br from-primary to-primary/70 bg-clip-text text-transparent">
                         {project.client.charAt(0)}
