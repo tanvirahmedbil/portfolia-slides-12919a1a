@@ -38,7 +38,7 @@ const ContactSection = () => {
           <div className="grid sm:grid-cols-2 gap-8 mb-10">
             <a
               href={`mailto:${personalInfo.email}`}
-              className="group flex flex-col items-center gap-4 p-6 rounded-xl bg-secondary/50 hover:bg-primary/10 transition-colors"
+              className="group flex flex-col items-center gap-4 p-6 rounded-xl bg-gradient-to-br from-primary/20 to-primary/40 border border-primary/30 hover:from-primary/30 hover:to-primary/50 transition-all duration-300"
             >
               <div className="w-14 h-14 rounded-full bg-primary/20 flex items-center justify-center group-hover:scale-110 transition-transform">
                 <Mail className="w-6 h-6 text-primary" />
@@ -51,7 +51,7 @@ const ContactSection = () => {
 
             <a
               href={`tel:${personalInfo.phone}`}
-              className="group flex flex-col items-center gap-4 p-6 rounded-xl bg-secondary/50 hover:bg-primary/10 transition-colors"
+              className="group flex flex-col items-center gap-4 p-6 rounded-xl bg-gradient-to-br from-primary/20 to-primary/40 border border-primary/30 hover:from-primary/30 hover:to-primary/50 transition-all duration-300"
             >
               <div className="w-14 h-14 rounded-full bg-primary/20 flex items-center justify-center group-hover:scale-110 transition-transform">
                 <Phone className="w-6 h-6 text-primary" />
