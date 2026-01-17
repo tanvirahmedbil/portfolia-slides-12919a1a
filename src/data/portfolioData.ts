@@ -46,7 +46,7 @@ export const featuredProjects = [
     id: 2,
     client: "Ryans Computers",
     logo: ryansLogo,
-    logoBg: "#0d9488", // teal for contrast
+    logoBg: "#1e40af", // deep blue
     intro: "One of Bangladesh's largest computer & IT product retailers.",
     strategy: [
       "E-commerce SEO strategy for 10,000+ product pages",
@@ -98,7 +98,7 @@ export const featuredProjects = [
     id: 5,
     client: "Shopidevs: Shopify App",
     logo: shopidevsLogo,
-    logoBg: "#7c3aed", // purple for white logo
+    logoBg: "#16a34a", // shopify green
     intro: "Google Ads campaign for Shopify app installation conversions.",
     strategy: [
       "Google Ads campaign setup & optimization",
@@ -116,7 +116,7 @@ export const featuredProjects = [
     id: 6,
     client: "Acts Asset Ltd",
     logo: actsassetLogo,
-    logoBg: "#dc2626", // red for white logo
+    logoBg: "#0f172a", // dark navy
     intro: "Performance marketing and digital asset management partner.",
     strategy: [
       "Built multi-channel PPC campaigns on Google Search & Display",
@@ -151,6 +151,7 @@ export const featuredProjects = [
     id: 8,
     client: "AC Wood Contracting",
     logo: acwoodLogo,
+    logoBg: "#78350f", // warm brown for wood theme
     intro: "Berkshire County's top general contractor specializing in custom builds and renovations.",
     strategy: [
       "Local SEO with service & location page development",
