@@ -50,11 +50,7 @@ const Navigation = ({
               <Mail className="w-4 h-4" />
               Contact
             </a>
-            <a href="#" className="btn-primary text-sm" onClick={e => {
-            e.preventDefault();
-            // In production, this would link to actual CV file
-            alert("CV download would be triggered here. Add your CV file path.");
-          }}>
+            <a href="/Tanvir_Ahmed_CV_Resume.pdf" download className="btn-primary text-sm">
               <Download className="w-4 h-4" />
               <span className="hidden sm:inline">Resume</span>
             </a>
