@@ -11,6 +11,10 @@ import googleAdsCampaigns from "@/assets/growth/google-ads-campaigns.png";
 import ga4Watermanbd from "@/assets/growth/ga4-watermanbd.png";
 import organicTraffic90days from "@/assets/growth/organic-traffic-90days.png";
 import organicSearchGrowth from "@/assets/growth/organic-search-growth.png";
+import ga4ShiphospitalTraffic from "@/assets/growth/ga4-shiphospital-traffic.png";
+import googleAdsCtrConv from "@/assets/growth/google-ads-ctr-conv.png";
+import googleAdsRoas from "@/assets/growth/google-ads-roas.png";
+import conversionCpiImprovement from "@/assets/growth/conversion-cpi-improvement.png";
 interface GrowthSnapshot {
   id: number;
   image: string;
@@ -60,6 +64,30 @@ const growthSnapshots: GrowthSnapshot[] = [{
   caption: "Organic search spike – Long-term SEO",
   tags: ["SEO", "E-commerce"],
   alt: "Google Analytics showing organic search growth from under 20K to over 40K sessions"
+}, {
+  id: 8,
+  image: ga4ShiphospitalTraffic,
+  caption: "Traffic acquisition growth – 672% increase",
+  tags: ["SEO", "E-commerce"],
+  alt: "GA4 showing 672% user growth and 587% session growth with organic search leading"
+}, {
+  id: 9,
+  image: googleAdsCtrConv,
+  caption: "High CTR & conversion rate – Google Ads",
+  tags: ["PPC", "Lead Gen"],
+  alt: "Google Ads showing 7.91% CTR, $7.14 CPC, and 21.23% conversion rate"
+}, {
+  id: 10,
+  image: googleAdsRoas,
+  caption: "130% ROAS campaign performance",
+  tags: ["PPC", "E-commerce"],
+  alt: "Google Ads showing $47K spend, 1.38K conversions, and 130% ROAS"
+}, {
+  id: 11,
+  image: conversionCpiImprovement,
+  caption: "CPI reduction – $40 to $25",
+  tags: ["PPC", "App Install"],
+  alt: "Conversion data showing cost per install improvement from $40 to $25"
 }];
 const GrowthSection = () => {
   const [selectedImage, setSelectedImage] = useState<GrowthSnapshot | null>(null);
