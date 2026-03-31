@@ -54,7 +54,7 @@ const PortfolioSection = () => {
                       className={`px-2 sm:px-3 py-0.5 sm:py-1 text-xs font-medium rounded-full ${
                         t === "PPC"
                           ? "bg-primary/20 text-primary"
-                          : "bg-secondary text-foreground/70"
+                          : "bg-primary/15 text-foreground"
                       }`}
                     >
                       {t}
