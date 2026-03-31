@@ -202,8 +202,8 @@
   }
 
   .skill-tag {
-    @apply px-3 sm:px-4 py-1.5 sm:py-2 bg-secondary text-foreground/80 text-xs sm:text-sm font-medium rounded-full;
-    @apply transition-all duration-300 hover:bg-primary/20 hover:text-primary;
+    @apply px-3 sm:px-4 py-1.5 sm:py-2 bg-primary/15 text-foreground text-xs sm:text-sm font-medium rounded-full;
+    @apply transition-all duration-300 hover:bg-primary/25 hover:text-primary;
   }
 
   .progress-indicator {
